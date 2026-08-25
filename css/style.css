@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #644634;
+  background-color: #f0eadf;
+}
+
+h1, h2 {
+  color: #3d2b1f;
+  font-weight: 700;
+}
+
+h3 {
+  color: #3d2b1f;
+  font-weight: 600;
+}
+
+main {
+  min-height: 60vh;
+}
+
+.cafe-navbar {
+  background-color: #3d2b1f;
+}
+
+.cafe-navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.cafe-navbar .nav-link {
+  font-weight: 600;
+}
+
+.cafe-navbar .nav-link:hover {
+  color: #e0a458 !important;
+}
+
+/* ============================
+   Hero (Home page)
+============================ */
+.hero {
+  background: linear-gradient(135deg, #3d2b1f 0%, #644634 60%, #99440b 100%);
+  color: #f0eadf;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #f0eadf;
+  font-size: 2.75rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.hero .btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+}
+
+/* ============================
+   Features section (Home page)
+============================ */
+.features {
+  padding: 60px 20px;
+}
+
+.features .feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+/* ============================
+   Product / Menu cards
+============================ */
+.card-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 20px;
+  width: 150px;
+  background-color: rgb(141, 37, 37);
+  color: rgb(207, 181, 181);
+  margin: 10px;
+  min-width: 250px;
+  text-align: center;
+}
+
+.card h3 {
+  color: white;
+}
+
+.card img {
+  border-radius: 6px;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.card .price {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 8px 0 0;
+}
+
+.my-bg {
+  background-color: #ff6600;
+  border-color: #99440b;
+  color: #ffffff;
+}
+
+.my-bg:hover {
+  background-color: #e0a458;
+  border-color: #99440b;
+  color: #3d2b1f;
+}
+
+/* ============================
+   Menu page
+============================ */
+.menu-section {
+  padding: 30px 20px 10px;
+}
+
+.menu-section h2 {
+  border-bottom: 3px solid #ff6600;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+/* ============================
+   About page
+============================ */
+.about-section {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section a {
+  color: #99440b;
+  font-weight: 600;
+}
+
+.about-section a:hover {
+  color: #e0a458;
+}
+
+.address-block {
+  background: #f7f2ea;
+  border-left: 4px solid #ff6600;
+  padding: 15px 20px;
+  margin: 25px 0;
+}
+
+.address-block address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.info-card {
+  background: #ffffff;
+  border: 1px solid #e0d8cb;
+  border-radius: 8px;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+.info-card > p:first-child {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #3d2b1f;
+  margin: 0 0 15px;
+}
+
+.info-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.info-card ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.info-card ul li:last-child {
+  border-bottom: none;
+}
+
+/* ============================
+   Footer
+============================ */
+.cafe-footer {
+  background-color: #3d2b1f;
+  color: #f0eadf;
+  padding: 40px 0 20px;
+  margin-top: 60px;
+}
+
+.cafe-footer h5 {
+  color: #e0a458;
+  margin-bottom: 10px;
+}
+
+.cafe-footer p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.cafe-footer hr {
+  border-color: #644634;
+  margin: 25px 0 15px;
+}
